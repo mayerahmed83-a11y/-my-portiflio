@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayar Ahmed | Backend Web Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="Mayar Ahmed - Backend Web Developer Portfolio" />
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-white text-slate-800">
+  <!-- Header / Navbar -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#cover" class="font-bold text-xl">Mayar<span class="text-indigo-600">.</span></a>
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#education" class="hover:text-indigo-600">Education</a>
+        <a href="#skills" class="hover:text-indigo-600">Skills</a>
+        <a href="#experience" class="hover:text-indigo-600">Experience</a>
+        <a href="#services" class="hover:text-indigo-600">Services</a>
+        <a href="#projects" class="hover:text-indigo-600">Projects</a>
+        <a href="#achievements" class="hover:text-indigo-600">Achievements</a>
+        <a href="#testimonials" class="hover:text-indigo-600">Testimonials</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+      <a href="#contact" class="hidden md:inline-block rounded-2xl bg-indigo-600 px-4 py-2 text-white font-semibold shadow hover:bg-indigo-700">Hire Me</a>
+    </div>
+  </header>
+<!-- Cover -->
+<section id="cover" class="relative overflow-hidden">
+  <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 grid md:grid-cols-2 gap-10 items-center">
+    
+    <!-- Text Content -->
+<div>
+  <p class="text-sm uppercase tracking-widest text-slate-500">Hello, I'm</p>
+  <h1 class="mt-2 text-4xl md:text-5xl font-extrabold">Mayar Ahmed</h1>
+  <p class="mt-3 text-lg md:text-xl text-slate-600">
+    Backend Web Developer | Passionate about building scalable & secure web applications.
+  </p>
+  
+  <!-- Buttons -->
+  <div class="mt-6 flex items-center gap-3">
+    <a href="#projects" class="rounded-2xl bg-indigo-600 px-5 py-3 text-white font-semibold shadow hover:bg-indigo-700 flex items-center gap-2">
+      <i data-lucide="eye"></i> View My Work
+    </a>
+    <a href="#contact" class="rounded-2xl border border-slate-300 px-5 py-3 font-semibold hover:border-indigo-400 hover:text-indigo-600 flex items-center gap-2">
+      <i data-lucide="send"></i> Contact Me
+    </a>
+    <a href="YOUR_CV_LINK.pdf" target="_blank" class="rounded-2xl border border-slate-300 px-5 py-3 font-semibold hover:border-indigo-400 hover:text-indigo-600 flex items-center gap-2">
+      <i data-lucide="download"></i> Download CV
+    </a>
+  </div>
+
+  <!-- Social Links -->
+  <div class="mt-6 flex items-center gap-4 text-slate-500">
+    <a href="https://github.com/mayerahmed83-a11y" target="_blank" class="flex items-center gap-1 hover:text-indigo-600">
+      <i data-lucide="github" class="w-5 h-5"></i> GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/mayar-ahmed592/" target="_blank" class="flex items-center gap-1 hover:text-indigo-600">
+      <i data-lucide="linkedin" class="w-5 h-5"></i> LinkedIn
+    </a>
+    <a href="mailto:mayerahmed83@email.com" class="flex items-center gap-1 hover:text-indigo-600">
+      <i data-lucide="mail" class="w-5 h-5"></i> Email
+    </a>
+  </div>
+</div>
+
+<!-- Image Section -->
+<div class="relative h-64 md:h-80 flex items-center justify-center">
+  <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-indigo-600 shadow-lg glow-img">
+   <img src="https://d.top4top.io/p_3540c1d7n2.jpg" alt="Mayar Ahmed"
+     class="w-full h-full object-cover" />
+     
+  </div>
+</div>
+
+<style>
+  /* تأثير اللمعة حوالين الصورة */
+  .glow-img {
+    box-shadow: 0 0 25px 5px rgba(99, 102, 241, 0.7); /* انديجو */
+    animation: glowPulse 3s ease-in-out infinite;
+  }
+
+  @keyframes glowPulse {
+    0%, 100% {
+      box-shadow: 0 0 25px 5px rgba(99, 102, 241, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 40px 10px rgba(99, 102, 241, 0.9);
+    }
+  }
+</style>
+
+
+  
+
+    <!-- About -->
+<section id="about" class="border-t border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <div class="flex items-center gap-2">
+      <!-- أيقونة user -->
+      <svg xmlns="http://www.w3.org/2000/svg" 
+           class="w-6 h-6 text-indigo-600" 
+           fill="none" viewBox="0 0 24 24" 
+           stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" 
+              d="M5.121 17.804A9 9 0 1118.879 6.196 
+                 9 9 0 015.121 17.804z" />
+        <path stroke-linecap="round" stroke-linejoin="round" 
+              d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+      </svg>
+      <h2 class="text-3xl font-bold">About</h2>
+    </div>
+    <p class="mt-4 text-slate-600 max-w-3xl">
+      I’m Mayar Ahmed, a junior backend developer with a strong passion 
+      for creating efficient and secure web solutions. I enjoy solving 
+      problems, learning new technologies, and turning ideas into 
+      real-world projects. Outside of coding, I love teamwork, 
+      continuous learning, and sharing knowledge with others.
+    </p>
+  </div>
+</section>
+
+    
+<!-- Education -->
+<section id="education" class="bg-slate-50 border-y border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold">Education</h2>
+    <div class="mt-8 grid md:grid-cols-2 gap-6">
+
+      <!-- Bachelor’s Degree -->
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center gap-2">
+          <!-- أيقونة graduation cap -->
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="w-6 h-6 text-indigo-600" 
+               fill="none" viewBox="0 0 24 24" 
+               stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422A12.083 12.083 0 0118 20.944M12 14L5.84 10.578A12.083 12.083 0 006 20.944" />
+          </svg>
+          <h3 class="font-semibold">Bachelor’s Degree in Computer Science</h3>
+        </div>
+        <p class="text-slate-600">Nahda University — 2022-2027</p>
+      </div>
+
+      <!-- Online Courses -->
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center gap-2">
+          <!-- أيقونة laptop -->
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="w-6 h-6 text-green-600" 
+               fill="none" viewBox="0 0 24 24" 
+               stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5h18M8 21h8M12 17v4m-6-4h12a2 2 0 002-2V7a2 2 0 00-2-2H6a2 2 0 00-2 2v8a2 2 0 002 2z" />
+          </svg>
+          <h3 class="font-semibold">Online Courses</h3>
+        </div>
+        <p class="text-slate-600">Web Development, Databases, PHP/Laravel</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  
+ <!-- Skills -->
+<section id="skills">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-bold">Skills</h2>
+    <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Technical -->
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center gap-2">
+          <!-- أيقونة code -->
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="w-6 h-6 text-indigo-600" 
+               fill="none" viewBox="0 0 24 24" 
+               stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+          </svg>
+          <h3 class="font-semibold">Technical</h3>
+        </div>
+        <ul class="mt-3 list-disc list-inside text-slate-600 space-y-1">
+          <li>PHP, JavaScript, SQL</li>
+          <li>Laravel, Node.js (basic)</li>
+          <li>HTML, CSS, Tailwind</li>
+          <li>MySQL, SQLite</li>
+          <li>Git/GitHub, Postman, XAMPP</li>
+        </ul>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center gap-2">
+          <!-- أيقونة users -->
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="w-6 h-6 text-green-600" 
+               fill="none" viewBox="0 0 24 24" 
+               stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a4 4 0 00-5-4M9 20H4v-2a4 4 0 015-4m8-4a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <h3 class="font-semibold">Soft Skills</h3>
+        </div>
+        <ul class="mt-3 list-disc list-inside text-slate-600 space-y-1">
+          <li>Problem Solving</li>
+          <li>Communication</li>
+          <li>Team Collaboration</li>
+          <li>Time Management</li>
+        </ul>
+      </div>
+
+      <!-- Languages -->
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center gap-2">
+          <!-- أيقونة globe -->
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="w-6 h-6 text-blue-600" 
+               fill="none" viewBox="0 0 24 24" 
+               stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3C7.03 3 3 7.03 3 12s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9zm0 0c2.21 0 4 4.03 4 9s-1.79 9-4 9-4-4.03-4-9 1.79-9 4-9z" />
+          </svg>
+          <h3 class="font-semibold">Languages</h3>
+        </div>
+        <ul class="mt-3 list-disc list-inside text-slate-600 space-y-1">
+          <li>Arabic (Native)</li>
+          <li>English (Good)</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+<!-- Experience -->
+<section id="experience" class="bg-slate-50 border-y border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <div class="flex items-center gap-2">
+      <!-- أيقونة briefcase -->
+      <svg xmlns="http://www.w3.org/2000/svg" 
+           class="w-6 h-6 text-indigo-600" 
+           fill="none" viewBox="0 0 24 24" 
+           stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" 
+              d="M9 6V4a2 2 0 012-2h2a2 2 0 012 2v2m-6 
+                 0h6m-9 4h12a2 2 0 012 2v6a2 2 0 
+                 01-2 2H6a2 2 0 01-2-2v-6a2 2 0 
+                 012-2z" />
+      </svg>
+      <h2 class="text-3xl font-bold">Work Experience</h2>
+    </div>
+
+    <div class="mt-8 space-y-6">
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center justify-between">
+          <h3 class="font-semibold">Intern – Web Development</h3>
+          <span class="text-sm text-slate-500">2022 – 2025</span>
+        </div>
+        <ul class="mt-3 text-slate-600 list-disc list-inside space-y-1">
+          <li>Assisted in building and maintaining websites.</li>
+          <li>Designed and implemented database structures.</li>
+          <li>Worked in a team environment using GitHub.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Services -->
+<section id="services">
+  <div class="max-w-6xl mx-auto px-4 py-16">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <!-- أيقونة tools -->
+        <svg xmlns="http://www.w3.org/2000/svg" 
+             class="w-6 h-6 text-indigo-600" 
+             fill="none" viewBox="0 0 24 24" 
+             stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" 
+                d="M9.75 17L6 20.75m0-17.5L9.75 7.5M15 7.5h6m-6 9h6m-9-9l-3 3m0 6l3 3" />
+        </svg>
+        <h2 class="text-3xl font-bold">Offered Services</h2>
+      </div>
+      <a href="#contact" 
+         class="rounded-2xl bg-indigo-600 px-4 py-2 text-white font-semibold shadow hover:bg-indigo-700">
+        Get a Quote
+      </a>
+    </div>
+
+    <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Backend Development -->
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="w-6 h-6 text-indigo-600" 
+               fill="none" viewBox="0 0 24 24" 
+               stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+          </svg>
+          <h3 class="font-semibold">Backend Development</h3>
+        </div>
+        <p class="mt-2 text-slate-600">APIs, Authentication, CRUD systems.</p>
+      </div>
+
+      <!-- Database -->
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="w-6 h-6 text-green-600" 
+               fill="none" viewBox="0 0 24 24" 
+               stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <h3 class="font-semibold">Database Design & Management</h3>
+        </div>
+        <p class="mt-2 text-slate-600">MySQL schemas, indexing, optimization.</p>
+      </div>
+
+      <!-- Website -->
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="w-6 h-6 text-blue-600" 
+               fill="none" viewBox="0 0 24 24" 
+               stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M12 4.5l7.5 13h-15L12 4.5z" />
+          </svg>
+          <h3 class="font-semibold">Website Development & Deployment</h3>
+        </div>
+        <p class="mt-2 text-slate-600">Clean UI, responsive, hosting setup.</p>
+      </div>
+
+      
+        <!-- Forms -->
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <div class="flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+               class="w-6 h-6 text-pink-600" 
+               fill="none" viewBox="0 0 24 24" 
+               stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M12 11c0 .552-.448 1-1 1s-1-.448-1-1 
+                     .448-1 1-1 1 .448 1 1zM4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <h3 class="font-semibold">Form Validation & Auth</h3>
+        </div>
+        <p class="mt-2 text-slate-600">Secure forms, login/logout, roles.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+  <section id="projects" class="bg-slate-50 border-y border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold">Projects</h2>
+      <p class="mt-2 text-slate-600">A selection of my best work. Click each card for details.</p>
+
+      <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Project 1 -->
+        <a href="https://github.com/mayerahmed83-a11y/laravel-mvc-project.git" target="_blank" class="group rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition">
+          <img src="c:\Users\essam\Downloads\WhatsApp Image 2025-09-09 at 16.51.11_3c13523b.jpg" alt="Website coffee Management System" class="w-full h-40 object-cover" />
+          <div class="p-5">
+            <h3 class="font-semibold group-hover:text-indigo-600">Website coffee Management System</h3>
+            <p class="mt-2 text-sm text-slate-600">.Laravel web app with MVC structure, user authentication, and dynamic content</p>
+          </div>
+        </a>
+        <!-- Project 2 -->
+        <a href="https://github.com/mayerahmed83-a11y/web-site.git" target="_blank" class="group rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition">
+          <img src="c:\Users\essam\Pictures\Image 2025-08-12 at 23.47.37_6eecda2d.jpg" alt="website Phones Store" class="w-full h-40 object-cover" />
+          <div class="p-5">
+            <h3 class="font-semibold group-hover:text-indigo-600"></h3>Website (Phones Store)</h3>
+            <p class="mt-2 text-sm text-slate-600">e-commerce website for electronics products with user authentication and shopping cart.</p>
+          </div>
+        </a>
+        <!-- Project 3 -->
+        <a href="https://github.com/YOUR_GITHUB/binary-search-visualizer" target="_blank" class="group rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition">
+          <img src="c:\Users\essam\Downloads\WhatsApp Image 2025-09-09 at 18.23.33_ab59661a.jpg"w-full h-40 object-cover" />
+          <div class="p-5">
+            <h3 class="font-semibold group-hover:text-indigo-600">Website shopping management system</h3>
+            <p class="mt-2 text-sm text-slate-600">.A responsive online store for electronics, featuring secure checkout and product managemen</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- Case Study template -->
+      <div class="mt-12 rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <h3 class="text-xl font-semibold">Case Study: [Project Name]</h3>
+        <div class="mt-4 grid md:grid-cols-2 gap-6">
+          <div>
+            <h4 class="font-semibold">Context</h4>
+            <p class="text-slate-600">What was the problem? Who was the user? What were the constraints?</p>
+          </div>
+          <div>
+            <h4 class="font-semibold">My Role</h4>
+            <p class="text-slate-600">Backend developer • API design • Database modeling • Auth.</p>
+          </div>
+          <div>
+            <h4 class="font-semibold">Solution</h4>
+            <p class="text-slate-600">Describe the approach, stack, and key decisions you made.</p>
+          </div>
+          <div>
+            <h4 class="font-semibold">Impact</h4>
+            <p class="text-slate-600">Quantify results: performance gains, reduced errors, happier users.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold">Achievements</h2>
+      <ul class="mt-6 grid md:grid-cols-2 gap-4 text-slate-700">
+        <li class="rounded-2xl border border-slate-200 p-4 shadow-sm">Certifications in SQL, PHP,iti treaning and Web Development.</li>
+        <li class="rounded-2xl border border-slate-200 p-4 shadow-sm">Built 5+ personal and academic projects.</li>
+        <li class="rounded-2xl border border-slate-200 p-4 shadow-sm">Recognized for problem-solving in university projects.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="bg-slate-50 border-y border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-3xl font-bold">Testimonials</h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <p class="italic text-slate-700">“Mayar is a dedicated and passionate developer who delivers on time with high quality.”</p>
+          <p class="mt-3 text-sm text-slate-500">— [Colleague/Instructor]</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <p class="italic text-slate-700">“Great teamwork and problem‑solving skills. A pleasure to work with.”</p>
+          <p class="mt-3 text-sm text-slate-500">— [Client/Team Lead]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="cta">
+    <div class="max-w-6xl mx-auto px-4 py-16 text-center">
+      <h2 class="text-3xl font-bold">Ready to bring your ideas to life?</h2>
+      <p class="mt-3 text-slate-600">Let’s build something amazing together!</p>
+      <div class="mt-6 flex items-center justify-center gap-3">
+        <a href="#contact" class="rounded-2xl bg-indigo-600 px-5 py-3 text-white font-semibold shadow hover:bg-indigo-700">Hire Me</a>
+        <a href="#projects" class="rounded-2xl border border-slate-300 px-5 py-3 font-semibold hover:border-indigo-400 hover:text-indigo-600">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-slate-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <div class="grid md:grid-cols-2 gap-10 items-start">
+        <div>
+          <h2 class="text-3xl font-bold">Contact</h2>
+          <p class="mt-3 text-slate-300">Feel free to reach out for collaborations or just a friendly hello 👋</p>
+          <ul class="mt-6 space-y-2 text-slate-300">
+            <li><span class="font-semibold">Email:</span> <a class="hover:underline" href="mailto:yourname@email.com">yourname@email.com</a></li>
+            <li><span class="font-semibold">LinkedIn:</span> <a class="hover:underline" target="_blank" href="https://www.linkedin.com/in/mayar-ahmed592/">linkedin.com/in/YOUR_LINKEDIN</a></li>
+            <li><span class="font-semibold">GitHub:</span> <a class="hover:underline" target="_blank" href="https://github.com/mayerahmed83-a11y">github.com/YOUR_GITHUB</a></li>
+            <li><span class="font-semibold">Portfolio:</span> <a class="hover:underline" target="_blank" href="https://YOUR_DOMAIN">YOUR_DOMAIN</a></li>
+          </ul>
+        </div>
+        <form class="bg-white text-slate-800 rounded-2xl p-6 shadow space-y-4">
+          <div>
+            <label class="block text-sm font-semibold">Name</label>
+            <input type="text" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Your name" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold">Email</label>
+            <input type="email" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="you@example.com" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold">Message</label>
+            <textarea rows="4" class="mt-1 w-full rounded-xl border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500" placeholder="Tell me about your project"></textarea>
+          </div>
+          <button type="button" class="w-full rounded-2xl bg-indigo-600 px-5 py-3 text-white font-semibold shadow hover:bg-indigo-700">Send Message</button>
+          <p class="text-xs text-slate-500">(Connect this form to your backend or services like Formspree/Netlify Forms.)</p>
+        </form>
+      </div>
+      <div class="mt-10 text-center text-slate-400 text-sm">© <span id="year"></span> Mayar Ahmed. All rights reserved.</div>
+    </div>
+  </section>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
